@@ -1,0 +1,671 @@
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* ========================================================= Header Part =================================================== */
+
+header {
+   width: 100%;
+   height: 350px;
+   float: left;
+   background-color: #87509c;
+}
+nav {
+   width: 100%;
+   float: left;
+   padding: 20px;
+}
+.logo-part {
+   width: 50%;
+   float: left;
+}
+.logo-part img {
+   margin: 40px 275px;
+}
+.menu-part {
+   width: 50%;
+   float: left;
+   font-size: 20px;
+}
+
+.menu-part li {
+   display: inline-block;
+   padding: 0px 20px;
+   margin: 40px 10px;
+}
+.menu-part a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+   padding: 10px;
+}
+.menu-part a:hover {
+  background-color: #00000068;
+}
+nav P {
+   text-align: center;
+}
+p {
+   color: white;
+   text-align: center;
+   font-size: 30px;
+}
+
+/* ================================================== Services Part ================================================ */
+
+/* services writting part */
+
+.services-part {
+   width: 100%;
+   height: 500px;
+   float: left;
+  background-color: #17c2a4;
+  padding: 40px;
+}
+.services-writting-part h1 {
+   color: #fff;
+   text-align: center;
+   margin: auto;
+   font-size: 30px;
+}
+.paragraph-part p {
+   margin-top: 40px;
+   font-size: 15px;
+}
+
+/* services box part */
+
+.services-box-part {
+   width: 100%;
+   float: left;
+   padding: 40px;
+}
+.services-box-01 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.services-box-01 img {
+   height: 90px;
+   margin-left: 150px;
+}
+.services-box-01 h3 {
+   color: #fff;
+   margin-top: 30px;
+   margin-left: 140px;
+}
+.services-box-01 p {
+   font-size: 15px;
+   margin-top: 15px;
+}
+
+
+.services-box-02 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.services-box-02 img {
+   height: 90px;
+   margin-left: 150px;
+}
+.services-box-02 h3 {
+   color: #fff;
+   margin-top: 30px;
+   margin-left: 140px;
+}
+.services-box-02 p {
+   font-size: 15px;
+   margin-top: 15px;
+   margin-right: 30px;
+}
+
+
+.services-box-03 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.services-box-03 img {
+   height: 90px;
+   margin-left: 150px;
+}
+.services-box-03 h3 {
+   color: #fff;
+   margin-top: 30px;
+   margin-left: 140px;
+}
+.services-box-03 p {
+   font-size: 15px;
+   margin-top: 15px;
+   margin-left: 32px;
+}
+
+
+
+.services-box-04 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.services-box-04 img {
+   height: 90px;
+   margin-left: 195px;
+}
+.services-box-04 h3 {
+   color: #fff;
+   margin-top: 30px;
+   margin-left: 140px;
+}
+.services-box-04 p {
+   font-size: 15px;
+   margin-top: 15px;
+   margin-left: 45px;
+}
+
+
+/* =========================================================== Beautiful team part =================================================================== */
+
+/* Beautiful team writting part */
+
+.beautiful-team-part {
+   width: 100%;
+   height: 500px;
+   float: left;
+  background-color: #e7f1f8;
+  padding: 40px;
+}
+.beautiful-team-writting-part h1 {
+   text-align: center;
+   margin: auto;
+   font-size: 30px;
+   color: black;
+}
+.beautiful-team-paragraph-part p {
+   margin-top: 40px;
+   font-size: 15px;
+   color: black;
+}
+
+
+
+/* Beautiful team box part */
+
+.beautiful-team-box-part {
+   width: 100%;
+   float: left;
+   padding: 40px;
+}
+.beautiful-team-box-01 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.beautiful-team-box-01 img {
+   height: 90px;
+   margin-left: 150px;
+}
+.beautiful-team-box-01 h3 {
+   color: black;
+   margin-top: 30px;
+   margin-left: 115px;
+}
+.beautiful-team-box-01 p {
+   font-size: 15px;
+   margin-top: 15px;
+   color: black;
+}
+
+
+.beautiful-team-box-02 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.beautiful-team-box-02 img {
+   height: 90px;
+   margin-left: 143px;
+}
+.beautiful-team-box-02 h3 {
+   color: black;
+   margin-top: 30px;
+   margin-left: 140px;
+}
+.beautiful-team-box-02 p {
+   font-size: 15px;
+   margin-top: 15px;
+   margin-left: 5px;
+   color: black;
+}
+
+
+.beautiful-team-box-03 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.beautiful-team-box-03 img {
+   height: 90px;
+   margin-left: 150px;
+}
+.beautiful-team-box-03 h3 {
+   color: black;
+   margin-top: 30px;
+   margin-left: 140px;
+}
+.beautiful-team-box-03 p {
+   font-size: 15px;
+   margin-top: 15px;
+   margin-left: 32px;
+   color: black;
+}
+
+
+
+.beautiful-team-box-04 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.beautiful-team-box-04 img {
+   height: 90px;
+   margin-left: 195px;
+}
+.beautiful-team-box-04 h3 {
+   color: black;
+   margin-top: 30px;
+   margin-left: 175px;
+}
+.beautiful-team-box-04 p {
+   font-size: 15px;
+   margin-top: 15px;
+   margin-left: 90px;
+   color: black;
+}
+
+
+
+
+/* =========================================================== Skills part =================================================================== */
+
+/* Skills writting part */
+
+.skills-part {
+   width: 100%;
+   height: 400px;
+   float: left;
+  background-color: #ffffff;
+  padding: 40px;
+}
+.skills-writting-part h1 {
+   text-align: center;
+   margin: auto;
+   font-size: 30px;
+   color: black;
+}
+.skills-paragraph-part p {
+   margin-top: 40px;
+   font-size: 15px;
+   color: black;
+}
+
+
+
+/* skills box part */
+
+.skills-box-part {
+   width: 100%;
+   float: left;
+   padding: 40px;
+}
+.skills-box-01 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.skills-box-01 img {
+   height: 130px;
+   margin-left: 150px;
+}
+.skills-box-01 h3 {
+   color: black;
+   margin-top: 30px;
+   margin-left: 115px;
+}
+.skills-box-01 p {
+   font-size: 15px;
+   margin-top: 15px;
+   color: black;
+}
+
+
+.skills-box-02 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.skills-box-02 img {
+   height: 130px;
+   margin-left: 143px;
+}
+.skills-box-02 h3 {
+   color: black;
+   margin-top: 30px;
+   margin-left: 140px;
+}
+.skills-box-02 p {
+   font-size: 15px;
+   margin-top: 15px;
+   margin-left: 5px;
+   color: black;
+}
+
+
+.skills-box-03 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.skills-box-03 img {
+   height: 130px;
+   margin-left: 150px;
+}
+.skills-box-03 h3 {
+   color: black;
+   margin-top: 30px;
+   margin-left: 140px;
+}
+.skills-box-03 p {
+   font-size: 15px;
+   margin-top: 15px;
+   margin-left: 32px;
+   color: black;
+}
+
+
+
+.skills-box-04 {
+   width: 25%;
+   float: left;
+   margin-top: 25px;
+}
+.skills-box-04 img {
+   height: 130px;
+   margin-left: 195px;
+}
+.skills-box-04 h3 {
+   color: black;
+   margin-top: 30px;
+   margin-left: 175px;
+}
+.skills-box-04 p {
+   font-size: 15px;
+   margin-top: 15px;
+   margin-left: 90px;
+   color: black;
+}
+
+
+/* ================================================== our portfolio Part ================================================ */
+
+/* our portfolio writting part */
+
+.our-portfolio-part {
+   width: 100%;
+   height: 1140px;
+   float: left;
+   background-color: #ffdd99;
+   padding: 40px;
+}
+.our-portfolio-writting-part h1 {
+   text-align: center;
+   margin: auto;
+   font-size: 30px;
+   color: black;
+}
+.our-portfolio-paragraph-part p {
+   margin-top: 40px;
+   font-size: 15px;
+   color: black;
+}
+
+/* our portfolio box part */
+
+.our-portfolio-box-part {
+   width: 100%;
+   float: left;
+   padding: 40px;
+}
+.our-portfolio-box-01 {
+   width: 50%;
+   float: left;
+   margin-top: 25px;
+}
+.our-portfolio-box-01 img {
+   height: 350px;
+   margin-left: 150px;
+}
+.our-portfolio-box-01 h3 {
+   margin-top: 30px;
+   margin-left: 310px;
+   text-transform: uppercase;
+   color: black;
+}
+
+
+.our-portfolio-box-02 {
+   width: 50%;
+   float: left;
+   margin-top: 25px;
+}
+.our-portfolio-box-02 img {
+   height: 350px;
+   margin-left: 150px;
+}
+.our-portfolio-box-02 h3 {
+   color: #fff;
+   margin-top: 30px;
+   margin-left: 385px;
+   text-transform: uppercase;
+   color: black;
+}
+
+
+
+
+/* ================================================== about us Part ================================================ */
+
+/* about us writting part */
+
+.about-us-part {
+   width: 100%;
+   height: 650px;
+   float: left;
+   background-color: #d74680;
+   padding: 40px;
+}
+.about-us-writting-part h1 {
+   text-align: center;
+   margin: auto;
+   font-size: 30px;
+   color: #fff;
+}
+.about-us-paragraph-part p {
+   margin-top: 40px;
+   font-size: 17px;
+   color: #fff;
+}
+
+/* about us box part */
+
+.about-us-box-part {
+   width: 100%;
+   float: left;
+   padding: 40px;
+}
+.about-us-box-01 {
+   width: 50%;
+   float: left;
+   margin-top: 25px;
+}
+.about-us-box-01 img {
+   height: 150px;
+   margin-left: 150px;
+}
+.about-us-box-01 h3 {
+   margin-top: 30px;
+   margin-left: 310px;
+   text-transform: uppercase;
+   color: black;
+}
+
+
+.about-us-box-02 {
+   width: 50%;
+   float: left;
+   margin-top: 25px;
+}
+.about-us-box-02 img {
+   height: 150px;
+   margin-left: 300px;
+}
+.about-us-box-02 h3 {
+   color: #fff;
+   margin-top: 30px;
+   margin-left: 385px;
+   text-transform: uppercase;
+   color: black;
+}
+
+
+.about-us-box-01 {
+   width: 50%;
+   float: left;
+   margin-top: 25px;
+}
+.about-us-box-01 img {
+   height: 150px;
+   margin-left: 150px;
+}
+.about-us-box-01 h3 {
+   margin-top: 30px;
+   margin-left: 310px;
+   text-transform: uppercase;
+   color: black;
+}
+
+
+
+/* ================================= contact part =============================== */
+
+/* contact writing part */
+
+#contact {
+   width: 100%;
+   height: 580px;
+   float: left;
+   background-color: #3c5499;
+   padding: 40px;
+}
+
+.contact-writing-part h1 {
+   color: white;
+   text-align: center;
+   margin: auto;
+   padding: 20px;
+}
+.contact-paragraph-part p {
+   margin-top: 20px;
+   font-size: 15px;
+}
+
+
+
+/* contact form part */
+
+.contact-form-part {
+   width: 100%;
+   float: left;
+}
+
+.form-row-1 {
+   width: 100%;
+   float: left;
+   padding: 40px;
+}
+
+.form-row-1 input {
+   padding: 15px;
+}
+
+.form-name-part {
+   width: 50%;
+   float: left;
+}
+
+.form-name-part input {
+   width: 50%;
+   margin-left: 42.40%;
+   background-color: #273a71;
+   color: #fff;
+}
+
+
+.form-email-part {
+   width: 50%;
+   float: left;
+}
+.form-row-2 {
+   width: 100%;
+   float: left;
+   text-align: center;
+   margin: auto;
+}
+
+.form-row-2 textarea {
+   padding: 10px;
+   background-color: #273a71;
+   color: #fff;
+}
+
+.form-row-2 input {
+   margin-top: 2%;
+   padding: 15px 65px;
+   background-color: #30bae7;
+}
+
+.form-email-part input {
+   width: 50%;
+   margin-left: 7%;
+   background-color: #273a71;
+   color: #fff;
+}
+
+
+
+.emon {
+   width: 100%;
+   height: 100px;
+   float: left;
+   background-color: #344b8e;
+}
+
+.link li {
+   display: inline-block;
+   padding: 10px 20px;
+   margin-left: 130px;
+   margin-top: 10px;
+}
+
+.link a {
+   text-decoration: none;
+   color: white;
+}
